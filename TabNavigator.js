@@ -16,7 +16,7 @@ const BottomTabNavigator = () => {
                         iconName = focused
                             ? 'book'
                             : 'book-outline';
-                    } else if (route.name === 'CreateStory') {
+                    } else if (route.name === 'CreatePost') {
                         iconName = focused ? 'create' : 'create-outline';
                     }
                     return <Ionicons name={iconName} size={size} color={color} />;
